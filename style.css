@@ -1,0 +1,14 @@
+menu {
+  display: block;
+}
+
+#canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;   /* Full viewport width */
+  height: 100vh;  /* Full viewport height */
+  z-index: -1;    /* Old canvas has lower z-index */
+  pointer-events: none; /* Prevent this canvas from blocking mouse clicks */
+}
+
